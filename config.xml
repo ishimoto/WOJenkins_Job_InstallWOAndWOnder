@@ -6,9 +6,9 @@
   to do the following:&lt;/p&gt;&#xd;
 &lt;h3&gt;Apple WebObjects™&lt;/h3&gt;&#xd;
 &lt;ol&gt;&#xd;
-  &lt;li&gt;Downloads &lt;a target=&quot;_new&quot; href=&quot;http://webobjects.mdimension.com/wolips/&quot;&gt;WOInstaller.jar&lt;/a&gt; &#xd;
+  &lt;li&gt;Downloads &lt;a target=&quot;_new&quot; href=&quot;http://www.wocommunity.org/tools/&quot;&gt;WOInstaller.jar&lt;/a&gt; &#xd;
     from MDimension.&lt;/li&gt;&#xd;
-  &lt;li&gt;Downloads WebObjects 5.3.3 or 5.4.3 from Apple&lt;/li&gt;&#xd;
+  &lt;li&gt;Downloads WebObjects 5.4.3 from Apple&lt;/li&gt;&#xd;
   &lt;li&gt;Installs WebObjects frameworks in &lt;code&gt;${JENKINS_HOME}/WOFrameworksRepository/WebObjects&lt;/code&gt;&lt;/li&gt;&#xd;
   &lt;li&gt;Downloads the current &#xd;
     &lt;a target=&quot;_new&quot; href=&quot;http://webobjects.mdimension.com/hudson/job/WOLips37Current/lastSuccessfulBuild/artifact/&quot;&gt;&#xd;
@@ -33,20 +33,15 @@ WOJenkins change regularly and you run the risk of this job breaking if you aren
   <properties>
     <hudson.model.ParametersDefinitionProperty>
       <parameterDefinitions>
-        <hudson.model.ChoiceParameterDefinition>
+        <hudson.model.StringParameterDefinition>
           <name>WO_VERSION</name>
           <description>The version of WebObjects to build against or embed in your project.</description>
-          <choices class="java.util.Arrays$ArrayList">
-            <a class="string-array">
-              <string>5.4.3</string>
-              <string>5.3.3</string>
-            </a>
-          </choices>
-        </hudson.model.ChoiceParameterDefinition>
+          <defaultValue>5.4.3</defaultValue>
+        </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
           <name>WONDER_BRANCH</name>
-          <description>The branch of Wonder that you want to build. The default is &lt;b&gt;master&lt;/b&gt; but it could set to &lt;b&gt;MyBranch&lt;/b&gt; instead.</description>
-          <defaultValue>master</defaultValue>
+          <description>The branch of Wonder that you want to build. The default is &lt;b&gt;integration&lt;/b&gt; but it could set to &lt;b&gt;master&lt;/b&gt; instead.</description>
+          <defaultValue>integration</defaultValue>
         </hudson.model.StringParameterDefinition>
         <hudson.model.ChoiceParameterDefinition>
           <name>BUILD_TARGETS</name>
@@ -105,7 +100,7 @@ WOJenkins change regularly and you run the risk of this job breaking if you aren
           <hudson.plugins.git.UserRemoteConfig>
             <name>origin</name>
             <refspec></refspec>
-            <url>git://github.com/avendasora/WOJenkins.git</url>
+            <url>https://github.com/wocommunity/WOJenkins.git</url>
           </hudson.plugins.git.UserRemoteConfig>
         </userRemoteConfigs>
         <branches>
