@@ -10,8 +10,8 @@
   &lt;li&gt;Downloads WebObjects 5.4.3 from Apple&lt;/li&gt;&#xd;
   &lt;li&gt;Installs WebObjects frameworks in &lt;code&gt;${JENKINS_HOME}/WOFrameworksRepository/WebObjects&lt;/code&gt;&lt;/li&gt;&#xd;
   &lt;li&gt;Downloads the current &#xd;
-    &lt;a target=&quot;_new&quot; href=&quot;http://jenkins.wocommunity.org/view/WOLips/job/WOLips37Community/lastSuccessfulBuild/artifact/&quot;&gt;&#xd;
-    woproject.jar&lt;/a&gt; from  WOLips build server and installs it in &lt;code&gt;${JENKINS_HOME}/WOFrameworksRepository/WOProject&lt;/code&gt; &#xd;
+    &lt;a target=&quot;_new&quot; href=&quot;https://dl.dropbox.com/u/1548210/Jenkins/woproject.jar&quot;&gt;&#xd;
+    woproject.jar&lt;/a&gt; from  K's Room and installs it in &lt;code&gt;${JENKINS_HOME}/WOFrameworksRepository/WOProject&lt;/code&gt; &#xd;
     (needed for building any WebObjects application with Ant)&lt;/li&gt;&#xd;
 &lt;/ol&gt;&#xd;
 &lt;h3&gt;Project WOnder&lt;/h3&gt;&#xd;
