@@ -6,12 +6,11 @@
   to do the following:&lt;/p&gt;&#xd;
 &lt;h3&gt;Apple WebObjects™&lt;/h3&gt;&#xd;
 &lt;ol&gt;&#xd;
-  &lt;li&gt;Downloads &lt;a target=&quot;_new&quot; href=&quot;http://www.wocommunity.org/tools/&quot;&gt;WOInstaller.jar&lt;/a&gt; &#xd;
-    from MDimension.&lt;/li&gt;&#xd;
+  &lt;li&gt;Downloads &lt;a target=&quot;_new&quot; href=&quot;https://dl.dropbox.com/u/1548210/Jenkins/WOInstaller.jar&quot;&gt;WOInstaller.jar&lt;/a&gt; from K's Room.&lt;/li&gt;&#xd;
   &lt;li&gt;Downloads WebObjects 5.4.3 from Apple&lt;/li&gt;&#xd;
   &lt;li&gt;Installs WebObjects frameworks in &lt;code&gt;${JENKINS_HOME}/WOFrameworksRepository/WebObjects&lt;/code&gt;&lt;/li&gt;&#xd;
   &lt;li&gt;Downloads the current &#xd;
-    &lt;a target=&quot;_new&quot; href=&quot;http://webobjects.mdimension.com/hudson/job/WOLips37Current/lastSuccessfulBuild/artifact/&quot;&gt;&#xd;
+    &lt;a target=&quot;_new&quot; href=&quot;http://jenkins.wocommunity.org/view/WOLips/job/WOLips37Community/lastSuccessfulBuild/artifact/&quot;&gt;&#xd;
     woproject.jar&lt;/a&gt; from  WOLips build server and installs it in &lt;code&gt;${JENKINS_HOME}/WOFrameworksRepository/WOProject&lt;/code&gt; &#xd;
     (needed for building any WebObjects application with Ant)&lt;/li&gt;&#xd;
 &lt;/ol&gt;&#xd;
