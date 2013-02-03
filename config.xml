@@ -99,7 +99,7 @@ WOJenkins change regularly and you run the risk of this job breaking if you aren
           <hudson.plugins.git.UserRemoteConfig>
             <name>origin</name>
             <refspec></refspec>
-            <url>https://github.com/wocommunity/WOJenkins.git</url>
+            <url>https://github.com/ishimoto/WOJenkins.git</url>
           </hudson.plugins.git.UserRemoteConfig>
         </userRemoteConfigs>
         <branches>
