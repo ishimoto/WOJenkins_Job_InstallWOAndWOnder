@@ -40,7 +40,7 @@ WOJenkins change regularly and you run the risk of this job breaking if you aren
         <hudson.model.StringParameterDefinition>
           <name>WONDER_BRANCH</name>
           <description>The branch of Wonder that you want to build. The default is &lt;b&gt;integration&lt;/b&gt; but it could set to &lt;b&gt;master&lt;/b&gt; instead.</description>
-          <defaultValue>integration</defaultValue>
+          <defaultValue>master</defaultValue>
         </hudson.model.StringParameterDefinition>
         <hudson.model.ChoiceParameterDefinition>
           <name>BUILD_TARGETS</name>
